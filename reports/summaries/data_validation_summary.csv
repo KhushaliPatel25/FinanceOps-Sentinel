@@ -1,0 +1,13 @@
+check_name,actual,expected,status
+Ledger records,5000,5000,PASS
+Bank records,4990,4990,PASS
+Missing bank transactions,100,100,PASS
+Amount mismatches,75,75,PASS
+Duplicate bank records,50,50,PASS
+Unexpected bank transactions,40,40,PASS
+Unique ledger IDs,5000,5000,PASS
+Unique bank references,4990,4990,PASS
+Ledger currency CAD,True,True,PASS
+Bank currency CAD,True,True,PASS
+Positive ledger amounts,True,True,PASS
+Positive bank amounts,True,True,PASS

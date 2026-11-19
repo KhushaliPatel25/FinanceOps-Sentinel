@@ -1,0 +1,6 @@
+reconciliation_status,transaction_count,percentage
+Amount mismatch,75,1.49
+Duplicate bank records,50,0.99
+Matched,4775,94.74
+Missing from bank,100,1.98
+Unexpected bank transactions,40,0.79
